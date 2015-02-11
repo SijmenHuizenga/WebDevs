@@ -26,7 +26,9 @@ A60000
 #rightColumn{
     width: 16%;
     height: 100%;
+    max-height: 850px;
     float: left;
+    overflow: scroll;
 }
 
 #headerRow{
@@ -39,11 +41,12 @@ A60000
     height: 25px;
 }
 #contentRow{
-    width: 100%;
+    width: 96%;
     min-height: 300px;
     height: auto;
     margin-top: 15px;
-    margin-left: 10px;
+    margin-left: 2%;
+    margin-right: 2%;
 }
 
 #logoContainer{
@@ -93,9 +96,19 @@ A60000
     background-color: #269926;
     cursor: pointer;
 }
-
+.clearDiv{
+  clear: both;
+}
+.advertBar{
+  width: 120px;
+  height: 600px;
+  background-color: blue;
+  margin: auto;
+  margin-bottom: 3px;
+  }
 #loginTable{
     margin-top: 5px;
+    max-width: 100%;
 }
 
 h1{
@@ -113,4 +126,23 @@ h2{
     margin-top: 0px;
     margin-left: 34px;
     margin-bottom: 0px;
+}
+h3{
+  text-align: center;
+}
+h4{
+    margin-bottom: 0px;
+}
+a{
+  color: #00AA00
+}
+
+#txtGebruikersnaam{
+  width: 169px;
+}
+#txtWachtwoord{
+  width: 142px;
+}
+#loginBtn{
+  width: 58px;
 }
