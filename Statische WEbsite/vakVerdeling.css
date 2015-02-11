@@ -26,7 +26,7 @@
 
 #menuRow{
     width: 100%;
-    height: 40px;
+    height: 25px;
     background-color: yellow;
 }
 #contentRow{
@@ -52,6 +52,7 @@
 .menuColumnContainer{
     float: left;
     width: 20%;
+    height: 100%;
 }
 .menuColumnContainer:hover .menuSub{
     display: block;
