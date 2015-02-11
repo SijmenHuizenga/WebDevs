@@ -42,6 +42,8 @@ A60000
     width: 100%;
     min-height: 300px;
     height: auto;
+    margin-top: 15px;
+    margin-left: 10px;
 }
 
 #logoContainer{
