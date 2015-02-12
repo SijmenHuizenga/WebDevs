@@ -1,43 +1,124 @@
-<div style="width: 100%; height: 70px; background-color: gray;">
+<div id="zoekBar">
+
+  <div id="productZoekFormContainer">
+    <form id="productZoekFrom" method="POST">
+      <input type="text" id="zoekVlak" placeholder="Zoektermen ingeven" style="width: 68%" />
+      <input type="submit" value="Zoeken" style="width: 28%" />
+    </form>
+  </div>
+  <br/>
+  <div id="productAantalContainer">
+    <form id="protuctenAantal" method="POST">
+      9 Produten | Toon
+      <select id="productenAantal">
+        <option value="10">10</option>
+        <option value="20" selected>20</option>
+        <option value="40">40</option>
+        <option value="80">80</option>
+        <option value="100">100</option>
+      </select>
+    </form>
+  </div>
 
 </div>
-<br>
 
-
-<div style='float: left; border: 1px solid; padding: 10px; width: 17%;'>
-  <a href='./producten'>Space Ships</a><br>
-  &nbsp;&nbsp;&nbsp;&nbsp;<a href='./producten'>Standard</a><br>
-  &nbsp;&nbsp;&nbsp;&nbsp;<a href='./producten'>Interstellar</a><br>
-  &nbsp;&nbsp;&nbsp;&nbsp;<a href='./producten'>Time Machines</a><br>
-  <a href='./producten'>Gereedschap</a><br>
-  &nbsp;&nbsp;&nbsp;&nbsp;<a href='./producten'>Op batterijen</a><br>
-  &nbsp;&nbsp;&nbsp;&nbsp;<a href='./producten'>Op netspanning</a><br>
-  <a href='./producten'>Aliens</a><br>
-  &nbsp;&nbsp;&nbsp;&nbsp;<a href='./producten'>Slaven</a><br>
-  &nbsp;&nbsp;&nbsp;&nbsp;<a href='./producten'>Gevangenen</a><br>
-  &nbsp;&nbsp;&nbsp;&nbsp;<a href='./producten'>Uitstervende</a>
+<div id="catogorieZoeker">
+  <a href='./producten?catogorie=SpaceShips'>Space Ships</a>
+  <br>&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href='./producten?catogorie=StandardSpaceShip'>Standard</a>
+  <br>&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href='./producten?catogorie=InterstallarSpaceShip'>Interstellar</a>
+  <br>&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href='./producten?catogorie=TimemachineSpaceShip'>Time Machines</a>
+  <br>
+  <a href='./producten?catogorie=Gereedschap'>Gereedschap</a>
+  <br>&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href='./producten?catogorie=BatterijGereedschap'>Op batterijen</a>
+  <br>&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href='./producten?catogorie=NetspanningGereedschap'>Op netspanning</a>
+  <br>
+  <a href='./producten?catogorie=Alians'>Aliens</a>
+  <br>&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href='./producten?catogorie=SlavenAlians'>Slaven</a>
+  <br>&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href='./producten?catogorie=GevangenenAlians'>Gevangenen</a>
+  <br>&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href='./producten?catogorie=UitstervendeAlians'>Uitstervende</a>
 </div>
 
-<div style='float: left; margin-left: 10px; width: 78%;'>
+<div id="productenContainer">
+  <div class="productBlok">
+    <a href="./producten">
+      <img src="../res/producten/product_0.jpg" alt="product 0" />tardis
+      <br/>
+    </a>
+    <form action="./winkelwagen?id=1">
+      <input type="submit" value="In Winkelwagen" />
+    </form>
+  </div>
+  <div class="productBlok">
+    <a href="./producten" >
+      <img src="../res/producten/product_1.jpg" alt="product 1" />spaceship
+    </a>
+    <form action="./winkelwagen?id=2">
+      <input type="submit" value="In Winkelwagen" />
+    </form>
+  </div>
 
-  <a class="productBlok">
-    <img src="../res/producten/product_0.jpg" />
-    <span>
-  </a>
-  <div class="productBlok"></div>
-  <div class="productBlok"></div>
-  <div class="productBlok"></div>
-  <div class="productBlok"></div>
-  <div class="productBlok"></div>
-  <div class="productBlok"></div>
-  <div class="productBlok"></div>
-  <div class="productBlok"></div>
-  <div class="productBlok"></div>
-  <div class="productBlok"></div>
-  <div class="productBlok"></div>
-  <div class="productBlok"></div>
-  <div class="productBlok"></div>
-  <div class="productBlok"></div>
-  <div class="productBlok"></div>
-
+  <div class="productBlok">
+    <a href="./producten" >
+      <img src="../res/producten/product_2.jpg" alt="product 2" />voidship
+    </a>
+    <form action="./winkelwagen?id=3">
+      <input type="submit" value="In Winkelwagen" />
+    </form>
+  </div>
+  <div class="productBlok">
+    <a href="./producten" >
+      <img src="../res/producten/product_3.jpg" alt="product 3" />ship
+    </a>
+    <form action="./winkelwagen?id=4">
+      <input type="submit" value="In Winkelwagen" />
+    </form>
+  </div>
+  <div class="productBlok">
+    <a href="./producten" >
+      <img src="../res/producten/product_4.jpg" alt="product 7" />ship
+    </a>
+    <form action="./winkelwagen?id=5">
+      <input type="submit" value="In Winkelwagen" />
+    </form>
+  </div>
+  <div class="productBlok">
+    <a href="./producten" >
+      <img src="../res/producten/product_5.jpg" alt="product 5" />ship
+    </a>
+    <form action="./winkelwagen?id=6">
+      <input type="submit" value="In Winkelwagen" />
+    </form>
+  </div>
+  <div class="productBlok">
+    <a href="./producten" >
+      <img src="../res/producten/product_6.gif" alt="product 6" />sonic screwdriver
+    </a>
+    <form action="./winkelwagen?id=7">
+      <input type="submit" value="In Winkelwagen" />
+    </form>
+  </div>
+  <div class="productBlok">
+    <a href="./producten" >
+      <img src="../res/producten/product_7.png" alt="product 7" />3d-glasses
+    </a>
+    <form action="./winkelwagen?id=8">
+      <input type="submit" value="In Winkelwagen" />
+    </form>
+  </div>
+  <div class="productBlok">
+    <a href="./producten" >
+      <img src="../res/producten/product_8.jpg" alt="product 8" />beast
+    </a>
+    <form action="./winkelwagen?id=9">
+      <input type="submit" value="In Winkelwagen" />
+    </form>
+  </div>
 </div>
