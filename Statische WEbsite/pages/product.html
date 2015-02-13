@@ -1,0 +1,50 @@
+<form action="./producten" id="terugForm" method="POST">
+    <input type="submit" value="terug" id="terugBtn" />
+</form>
+<br/>
+<img src="./res/producten/product_0.jpg" id="productImg" alt="TARDIS"/>
+<h4>Time and Relative Dimension in Space</h4>
+<h5>&#8364;379.3507.578.885</h5> <span id="voorraadTxt">Op voorraad: 1</span>
+<br/>
+<p>De naam is een acroniem voor Time And Relative Dimension In Space,
+    een relatieve dimensie en tijd in de ruimte. Het voertuig, dat van binnen
+    groter is dan van buiten, had oorspronkelijk de eigenschap zich aan te passen
+    aan de omgeving waarin het zich bevond. In 1963 is het bij een bezoek a
+    an Londen echter blijven steken in de vorm van een politiehokje uit de jaren
+    '50. Het geheel lijkt nog het meest op een blauwe telefooncel.</p>
+<br/>
+<form method="POST" action="./winkelwagen">
+    Aantal: <input type="number" id="aantalKiezer" value=15 /> <input type="submit" value="Toevoegen aan winkelwagen" />
+</form>
+<div style="clear: both">
+
+</div>
+<br/>
+Gerelateerde producten:<br/>
+<div id="productenContainer">
+    <div class="productBlok">
+      <a href="./product?id=1" >
+        <img src="./res/producten/product_1.jpg" alt="product 1" />spaceship
+      </a>
+      <form action="./winkelwagen?id=2">
+        <input type="submit" value="In Winkelwagen" />
+      </form>
+    </div>
+
+    <div class="productBlok">
+      <a href="./product?id=2" >
+        <img src="./res/producten/product_2.jpg" alt="product 2" />voidship
+      </a>
+      <form action="./winkelwagen?id=3">
+        <input type="submit" value="In Winkelwagen" />
+      </form>
+    </div>
+    <div class="productBlok">
+      <a href="./product?id=3" >
+        <img src="./res/producten/product_3.jpg" alt="product 3" />ship
+      </a>
+      <form action="./winkelwagen?id=4">
+        <input type="submit" value="In Winkelwagen" />
+      </form>
+    </div>
+</div>

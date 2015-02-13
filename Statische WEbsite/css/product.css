@@ -1,0 +1,55 @@
+#productImg{
+    width: 40%;
+    float: left;
+}
+
+h4{
+    font-size: 25px;
+    margin: 0px;
+    padding:0px;
+}
+h5{
+    font-size: 20px;
+    font-weight: normal;
+    margin: 0px;
+}
+
+#voorraadTxt{
+    float: right;
+}
+
+#aantalKiezer{
+    width: 30px;
+}
+
+/*copyed from producten.css*/
+
+.productBlok{
+  float: left;
+  border: 1px solid;
+  width: 20%;
+
+  padding: 2%;
+  height: 170px;
+  margin-left: 4px;
+  margin-bottom: 5px;
+  display: block;
+  color: black;
+
+}
+.productBlok a{
+  text-decoration: none;
+  color: black;
+}
+
+.productBlok img{
+  width: 100%;
+}
+
+.productBlok a form input{
+  width: 100%;
+}
+#productenContainer{
+  margin-left: 0px;
+  width: 78%;
+}
