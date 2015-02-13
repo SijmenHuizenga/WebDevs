@@ -152,3 +152,11 @@ a{
 #loginBtn{
   width: 58px;
 }
+#loginTxt{
+    color: #00AA00
+}
+.adsbygoogle{
+    display:inline-block;
+    width:120px;
+    height:600px
+}
