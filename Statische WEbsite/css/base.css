@@ -97,7 +97,6 @@ A60000
     height: 100%;
     z-index: 900;
     position: relative;
-
 }
 .menuSub:hover{
     background-color: #269926;
@@ -112,7 +111,7 @@ A60000
   background-color: blue;
   margin: auto;
   margin-bottom: 3px;
-  }
+ }
 #loginTable{
     margin-top: 5px;
     max-width: 100%;
