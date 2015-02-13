@@ -1,0 +1,31 @@
+#winkelwagenTabel, #winkelwagenTabel th, #winkelwagenTabel td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+#checkoutAtble{
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-right: 80px;
+    float: right;
+}
+#checkoutAtble tr td{
+    padding: 10px;
+}
+
+#checkoutAtble tr:first-child td:last-child, #checkoutAtble tr:first-child td:nth-child(2){
+    border: 1px solid black;
+}
+
+#afrekenenBtn{
+    float: right;
+}
+
+.productImg{
+    width: 100px;
+
+}
+.aantalNbr{
+    width: 35px;
+}
