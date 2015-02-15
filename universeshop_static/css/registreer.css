@@ -1,0 +1,34 @@
+#gegevensTabel{
+  border-style: solid;
+  border-width: 1px;
+  border-collapse: collapse;
+}
+#gegevensTabel tr td{
+  vertical-align: top;
+  padding: 3px;
+
+}
+#gegevensTabel tr td:first-child, #gegevensTabel tr th:first-child{
+  border-right: solid;
+  border-width: 1px;
+  padding-left:6px;
+  padding-right:6px;
+}
+
+#gegevensTabel tr td:nth-child(2){
+  padding-left:6px;
+}
+
+.bottomBorder{
+  border-style: solid;
+  border-width: 1px;
+}
+#txtTussenv{
+    width: 80px;
+}
+.width99persent{
+    width: 99%;
+}
+#opslaanButtno{
+    width: 708px;
+}

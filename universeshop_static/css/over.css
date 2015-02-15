@@ -1,0 +1,23 @@
+#float80divL{
+    float: left;
+    width: 80%;
+}
+#float20divR{
+    float: right;
+    width: 20%;
+}
+#doctorImg{
+    width: 100%;
+}
+#float50divL{
+    float: left;
+    width: 50%;
+}
+
+#float50divR{
+    float: right;
+    width: 50%;
+}
+#routeImg{
+    width: 100%;
+}

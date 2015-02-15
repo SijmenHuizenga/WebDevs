@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <link rel="stylesheet" href="css/base.css" />
+  <link rel="stylesheet" href="css/product.css" />
+  <meta charset="UTF-8">
+  <meta name="language" content="NL" />
+  <title>Universe Shop</title>
+
+</head>
+
+<body>
+  <div id="content">
+    <div id="leftColumn">
+      <div id="headerRow">
+        <a id="logoContainer" href="index.html">
+          <h1>UNIVERSE</h1>
+          <h2>STARS AND BEYOND</h2>
+        </a>
+        <div id="loginContainer">
+          <form>
+            <table id="loginTable">
+              <tr>
+                <td colspan="2">
+                  <span id="loginTxt">Login:</span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <input type="text" placeholder="Gebruikersnaam" id="txtGebruikersnaam" />
+                </td>
+                <td>
+                  <input type="password" placeholder="Wachtwoord" id="txtWachtwoord" />
+                </td>
+              </tr>
+              <tr>
+                <td colspan="2">
+                  <input type="checkbox" />Onthouden
+                  <a href="wwVergeten.html">Vergeten?</a>
+                  <a href="registreer.html">Registreer</a>
+                  <input type="submit" value="Log In" id="loginBtn" />
+                </td>
+              </tr>
+            </table>
+          </form>
+        </div>
+      </div>
+
+      <div id="menuRow">
+        <div class="menuColumnContainer">
+          <a class="menuItem" href="nieuws.html">Nieuws</a>
+        </div>
+        <div class="menuColumnContainer">
+          <a class="menuItem" href="acties.html">Acties</a>
+        </div>
+        <div class="menuColumnContainer">
+          <a class="menuItem" href="over.html">Over Universe</a>
+        </div>
+        <div class="menuColumnContainer">
+          <a class="menuItem" href="vacatures.html">Vacatures</a>
+        </div>
+        <div class="menuColumnContainer">
+          <a class="menuItem" href="webshop.html">Webshop</a>
+          <a class="menuSub" href="producten.html">Producten</a>
+          <a class="menuSub" href="winkelwagen.html">Winkelwagen</a>
+          <a class="menuSub" href="afrekenen.html">Afrekenen</a>
+        </div>
+
+      </div>
+
+      <div id="contentRow">
+        <form action="producten.html" id="terugForm" method="POST">
+          <input type="submit" value="terug" id="terugBtn" />
+        </form>
+        <br/>
+        <img src="res/producten/product_0.jpg" id="productImg" alt="TARDIS" />
+        <h4>Time and Relative Dimension in Space</h4>
+        <h5>&#8364;379.3507.578</h5>  <span id="voorraadTxt">Op voorraad: 1</span>
+        <br/>
+        <p>De naam is een acroniem voor Time And Relative Dimension In Space, een relatieve dimensie en tijd in de ruimte. Het voertuig, dat van binnen groter is dan van buiten, had oorspronkelijk de eigenschap zich aan te passen aan de omgeving waarin het
+          zich bevond. In 1963 is het bij een bezoek a an Londen echter blijven steken in de vorm van een politiehokje uit de jaren '50. Het geheel lijkt nog het meest op een blauwe telefooncel.</p>
+        <br/>
+        <form method="POST" action="winkelwagen.html">
+          Aantal:
+          <input type="number" id="aantalKiezer" value=15 />
+          <input type="submit" value="Toevoegen aan winkelwagen" />
+        </form>
+        <div class="clearDiv"></div>
+        <br/>Gerelateerde producten:
+        <br/>
+        <div id="productenContainer">
+          <div class="productBlok">
+            <a href="product.html?id=1">
+              <img src="res/producten/product_1.jpg" alt="product 1" />spaceship
+            </a>
+            <form action="winkelwagen.html?id=2">
+              <input type="submit" value="In Winkelwagen" />
+            </form>
+          </div>
+
+          <div class="productBlok">
+            <a href="product.html?id=2">
+              <img src="res/producten/product_2.jpg" alt="product 2" />voidship
+            </a>
+            <form action="winkelwagen.html?id=3">
+              <input type="submit" value="In Winkelwagen" />
+            </form>
+          </div>
+          <div class="productBlok">
+            <a href="product.html?id=3">
+              <img src="res/producten/product_3.jpg" alt="product 3" />ship
+            </a>
+            <form action="winkelwagen.html?id=4">
+              <input type="submit" value="In Winkelwagen" />
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="rightColumn">
+      <div class="advertBar">
+        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <ins class="adsbygoogle" data-ad-client="ca-pub-6002119617866163" data-ad-slot="9103877531"></ins>
+        <script>
+          (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+      </div>
+      <div class="advertBar">
+        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <ins class="adsbygoogle" data-ad-client="ca-pub-6002119617866163" data-ad-slot="9103877531"></ins>
+        <script>
+          (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+      </div>
+      <div class="advertBar">
+        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <ins class="adsbygoogle" data-ad-client="ca-pub-6002119617866163" data-ad-slot="9103877531"></ins>
+        <script>
+          (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

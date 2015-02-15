@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <link rel="stylesheet" href="css/base.css" />
+  <link rel="stylesheet" href="css/producten.css" />
+  <meta charset="UTF-8">
+  <meta name="language" content="NL" />
+  <title>Universe Shop</title>
+
+</head>
+
+<body>
+  <div id="content">
+    <div id="leftColumn">
+      <div id="headerRow">
+        <a id="logoContainer" href="index.html">
+          <h1>UNIVERSE</h1>
+          <h2>STARS AND BEYOND</h2>
+        </a>
+        <div id="loginContainer">
+          <form>
+            <table id="loginTable">
+              <tr>
+                <td colspan="2">
+                  <span id="loginTxt">Login:</span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <input type="text" placeholder="Gebruikersnaam" id="txtGebruikersnaam" />
+                </td>
+                <td>
+                  <input type="password" placeholder="Wachtwoord" id="txtWachtwoord" />
+                </td>
+              </tr>
+              <tr>
+                <td colspan="2">
+                  <input type="checkbox" />Onthouden
+                  <a href="wwVergeten.html">Vergeten?</a>
+                  <a href="registreer.html">Registreer</a>
+                  <input type="submit" value="Log In" id="loginBtn" />
+                </td>
+              </tr>
+            </table>
+          </form>
+        </div>
+      </div>
+
+      <div id="menuRow">
+        <div class="menuColumnContainer">
+          <a class="menuItem" href="nieuws.html">Nieuws</a>
+        </div>
+        <div class="menuColumnContainer">
+          <a class="menuItem" href="acties.html">Acties</a>
+        </div>
+        <div class="menuColumnContainer">
+          <a class="menuItem" href="over.html">Over Universe</a>
+        </div>
+        <div class="menuColumnContainer">
+          <a class="menuItem" href="vacatures.html">Vacatures</a>
+        </div>
+        <div class="menuColumnContainer">
+          <a class="menuItem" href="webshop.html">Webshop</a>
+          <a class="menuSub" href="producten.html">Producten</a>
+          <a class="menuSub" href="winkelwagen.html">Winkelwagen</a>
+          <a class="menuSub" href="afrekenen.html">Afrekenen</a>
+        </div>
+
+      </div>
+
+      <div id="contentRow">
+
+        <div id="zoekBar">
+
+          <div id="productZoekFormContainer">
+            <form id="productZoekFrom" method="POST">
+              <input type="text" id="zoekVlak" placeholder="Zoektermen ingeven" />
+              <input type="submit" id="zoekBtn" value="Zoeken" />
+            </form>
+          </div>
+          <br/>
+          <div id="productAantalContainer">
+            <form id="protuctenAantal" method="POST">
+              9 Produten | Toon
+              <select id="productenAantal">
+                <option value="10">10</option>
+                <option value="20" selected>20</option>
+                <option value="40">40</option>
+                <option value="80">80</option>
+                <option value="100">100</option>
+              </select>
+            </form>
+          </div>
+
+        </div>
+
+        <div id="catogorieZoeker">
+          <a href='producten.html?catogorie=SpaceShips'>Space Ships</a>
+          <br>&nbsp;&nbsp;&nbsp;&nbsp;
+          <a href='producten.html?catogorie=StandardSpaceShip'>Standard</a>
+          <br>&nbsp;&nbsp;&nbsp;&nbsp;
+          <a href='producten.html?catogorie=InterstallarSpaceShip'>Interstellar</a>
+          <br>&nbsp;&nbsp;&nbsp;&nbsp;
+          <a href='producten.html?catogorie=TimemachineSpaceShip'>Time Machines</a>
+          <br>
+          <a href='producten.html?catogorie=Gereedschap'>Gereedschap</a>
+          <br>&nbsp;&nbsp;&nbsp;&nbsp;
+          <a href='producten.html?catogorie=BatterijGereedschap'>Op batterijen</a>
+          <br>&nbsp;&nbsp;&nbsp;&nbsp;
+          <a href='producten.html?catogorie=NetspanningGereedschap'>Op netspanning</a>
+          <br>
+          <a href='producten.html?catogorie=Alians'>Aliens</a>
+          <br>&nbsp;&nbsp;&nbsp;&nbsp;
+          <a href='producten.html?catogorie=SlavenAlians'>Slaven</a>
+          <br>&nbsp;&nbsp;&nbsp;&nbsp;
+          <a href='producten.html?catogorie=GevangenenAlians'>Gevangenen</a>
+          <br>&nbsp;&nbsp;&nbsp;&nbsp;
+          <a href='producten.html?catogorie=UitstervendeAlians'>Uitstervende</a>
+        </div>
+
+        <div id="productenContainer">
+          <div class="productBlok">
+            <a href="product.html?id=0">
+              <img src="res/producten/product_0.jpg" alt="product 0" />tardis
+              <br/>&euro;379.3507.578
+            </a>
+            <form action="winkelwagen.html?id=1">
+              <input type="submit" value="In Winkelwagen" />
+            </form>
+          </div>
+          <div class="productBlok">
+            <a href="product.html?id=1">
+              <img src="res/producten/product_1.jpg" alt="product 1" />spaceship
+              <br/>&euro;379.3507
+            </a>
+            <form action="winkelwagen.html?id=2">
+              <input type="submit" value="In Winkelwagen" />
+            </form>
+          </div>
+
+          <div class="productBlok">
+            <a href="product.html?id=2">
+              <img src="res/producten/product_2.jpg" alt="product 2" />voidship
+              <br/>&euro;95.175
+            </a>
+            <form action="winkelwagen.html?id=3">
+              <input type="submit" value="In Winkelwagen" />
+            </form>
+          </div>
+          <div class="productBlok">
+            <a href="product.html?id=3">
+              <img src="res/producten/product_3.jpg" alt="product 3" />ship
+              <br/>&euro;12.65
+            </a>
+            <form action="winkelwagen.html?id=4">
+              <input type="submit" value="In Winkelwagen" />
+            </form>
+          </div>
+          <div class="productBlok">
+            <a href="product.html?id=4">
+              <img src="res/producten/product_4.jpg" alt="product 7" />ship
+              <br/>&euro;789.478
+            </a>
+            <form action="winkelwagen.html?id=5">
+              <input type="submit" value="In Winkelwagen" />
+            </form>
+          </div>
+          <div class="productBlok">
+            <a href="product.html?id=5">
+              <img src="res/producten/product_5.jpg" alt="product 5" />ship
+              <br/>&euro;741.54
+            </a>
+            <form action="winkelwagen.html?id=6">
+              <input type="submit" value="In Winkelwagen" />
+            </form>
+          </div>
+          <div class="productBlok">
+            <a href="product.html?id=6">
+              <img src="res/producten/product_6.gif" alt="product 6" />sonic screwdriver
+              <br/>&euro;12.137.1
+            </a>
+            <form action="winkelwagen.html?id=7">
+              <input type="submit" value="In Winkelwagen" />
+            </form>
+          </div>
+          <div class="productBlok">
+            <a href="product.html?id=7">
+              <img src="res/producten/product_7.png" alt="product 7" />3d-glasses
+              <br/>&euro;789.454
+            </a>
+            <form action="winkelwagen.html?id=8">
+              <input type="submit" value="In Winkelwagen" />
+            </form>
+          </div>
+          <div class="productBlok">
+            <a href="product.html?id=8">
+              <img src="res/producten/product_8.jpg" alt="product 8" />beast
+              <br/>&euro;852.456
+            </a>
+            <form action="winkelwagen.html?id=9">
+              <input type="submit" value="In Winkelwagen" />
+            </form>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <div id="rightColumn">
+      <div class="advertBar">
+        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <ins class="adsbygoogle" data-ad-client="ca-pub-6002119617866163" data-ad-slot="9103877531"></ins>
+        <script>
+          (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+      </div>
+      <div class="advertBar">
+        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <ins class="adsbygoogle" data-ad-client="ca-pub-6002119617866163" data-ad-slot="9103877531"></ins>
+        <script>
+          (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+      </div>
+      <div class="advertBar">
+        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <ins class="adsbygoogle" data-ad-client="ca-pub-6002119617866163" data-ad-slot="9103877531"></ins>
+        <script>
+          (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
